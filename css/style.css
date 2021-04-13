@@ -1,6 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin-top: 70px;
+    font-weight: 500;
 }
 /* NAVBAR */
 .ms_navbar {
@@ -119,10 +120,38 @@ h5 a {
     color: #004AFF;
 }
 
+/* SPONSOR */
+#sponsor {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #F3F5F9;
+    padding-bottom: 20px;
+}
+#sponsor a {
+    font-size: 16px;
+    color: #004AFF;
+    font-weight: 500;
+}
+#sponsor img {
+    margin-right: 10px;
+    height: 125px;
+    width: calc(50% - 15px);    
+}
+#sponsor h4 {
+    text-transform: uppercase;
+    padding: 25px 0;
+    font-size: 16px;
+}
+#sponsor [class*="col-"] {
+    padding: 0;
+}
+
 @media screen and (max-width: 992px) {
   
     #ms_jumbotron h1 {
         font-size: 37px;
     }
-
+    .ms_navbar .navbar-brand {
+        margin-right: 50px;
+    }
 }
