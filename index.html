@@ -14,11 +14,101 @@
         <!-- HEADER -->
         <header>
             <!-- NAVBAR -->
-
+            <nav class="navbar ms_navbar navbar-fixed-top">
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="img/logo.png" alt="logo"></a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="dropdown">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Products <b class="caret"></b></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Something else here</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                          </ul>
+                        </li>
+                        <li><a href="#">Customers</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Community <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                              <li><a href="#">Something else here</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                              <li class="divider"></li>
+                              <li><a href="#">One more separated link</a></li>
+                            </ul>
+                          </li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Docs</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Login</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <button type="submit" class="btn btn-default">Sing Up</button>
+                        </li>
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
             <!-- /NAVBAR -->
 
             <!-- JUMBOTRON -->
-
+            <section id="ms_jumbotron">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-7">
+                            <div class="ms_text">
+                                <h1>The simplest cloud 
+                                    platform for 
+                                    developers & teams
+                                </h1>
+                                <p>Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="sing_up text-center">
+                                <h3>Deploy your app in seconds.</h3>
+                                <h3>Get started now.</h3>
+                                <form>
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" id="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" id="password" placeholder="Password">
+                                    </div>
+                                    <button type="submit" class="ms_lg_btn">Create your account</button>
+                                    <button type="submit" class="ms_lg_btn btn_white">
+                                        <span><img src="img/google-icon.png" alt="google"></span>
+                                        <span>Sing up with google</span>
+                                    </button>
+                                </form>
+                                <h5>By signing up you aggre to the <a href="#">Terms of Service</a></h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <!-- /JUMBOTRON -->
 
             <!-- SPONSOR -->

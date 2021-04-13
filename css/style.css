@@ -1,0 +1,117 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+}
+/* NAVBAR */
+.ms_navbar {
+    z-index: 5;
+    padding: 10px 0 ;
+    margin-bottom: 0;
+    border: none;
+    background-color: white;
+}
+.ms_navbar img {
+    height: 100%;
+}
+.ms_navbar .navbar-brand {
+    padding: 10px 0;
+    margin-right: 100px;
+}
+.ms_navbar .navbar-nav a {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ms_navbar .navbar-nav a:hover {
+    background-color: #004AFF;
+    border-radius: 5px;
+    color: white;
+}
+.ms_navbar .navbar-nav a:active {
+    background-color: #004AFF;
+    border-radius: 5px;
+    color: white;
+}
+.ms_navbar .navbar-nav button {
+    margin-top: 10px;
+    font-weight: 700;
+}
+.ms_navbar .btn-default {
+    color: #004AFF;
+    border: 1px solid #004AFF;
+}
+.ms_navbar span {
+    background-color: #004AFF;
+}
+
+/* JUMBOTRON */
+
+#ms_jumbotron {
+    background-image: url("../img/bg-banner-home.jpg");
+    background-size: cover;
+    color: white;
+}
+#ms_jumbotron h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+#ms_jumbotron p {
+    font-size: 23px;
+}
+#ms_jumbotron .form-group input {
+    font-size: 18px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+}
+#ms_jumbotron button .btn-default {
+    width: 100%;
+}
+#ms_jumbotron form img {
+    height: 100%;
+}
+#ms_jumbotron form span:first-child {
+    position: relative;
+    left: -30%;
+}
+#ms_jumbotron h5 {
+    margin-top: 20px;
+    font-size: 12px;
+    color: black;
+}
+h5 a {
+    text-decoration: underline;
+}
+.ms_lg_btn {
+    height: 30px;
+    display: block;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 5px 0;
+    border: 1px solid rgba(51, 51, 51, 0.2);
+    background-color: #579AFF;
+}
+.btn_white {
+    background-color: white;
+    color: grey;
+}
+.ms_text {
+    margin: 70px 0;
+}
+.sing_up {
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+.sing_up h3:first-child {
+    color: black;
+}
+.sing_up h3:nth-child(2) {
+    margin-top: 0;
+    color: #004AFF;
+}

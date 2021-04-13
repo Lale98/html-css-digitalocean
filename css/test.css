@@ -1,0 +1,30 @@
+.debug {
+    border: 2px solid black;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.ms_navbar {
+    padding: 10px 0 ;
+}
+.ms_navbar img {
+    height: 100%;
+}
+.ms_navbar .navbar-brand {
+    padding: 10px 0;
+    margin-right: 100px;
+}
+.ms_navbar .navbar-nav a {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+}
+.ms_navbar .navbar-nav button {
+    margin-top: 10px;
+    font-weight: 700;
+}
+.ms_navbar .btn-default {
+    color: #004AFF;
+    border: 1px solid #004AFF;
+}
