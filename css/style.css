@@ -10,6 +10,15 @@ body {
     position: relative;
     text-align: center;
 }
+
+.text_right {
+    text-align: right;
+}
+.text_left {
+    text-align: left;
+}
+
+
 /* NAVBAR */
 .ms_navbar {
     z-index: 5;
@@ -159,6 +168,8 @@ h5 a {
     padding-top: 100px;
     padding-bottom: 30px;
 }
+#service h2,
+#features h2,
 #designed h2,
 #deploy h2 {
     font-size: 36px;
@@ -231,6 +242,35 @@ h5 a {
     color: #006AFF
 }
 
+/* SERVICE */
+#service {
+    padding-top: 60px;
+    color: white;
+    background-image: linear-gradient(#0047C5, #001E9A);
+}
+.service_element {
+    width: 95%;
+    padding: 10px 0;
+}
+.service_element:not(:last-child) {
+    border-bottom: 1px solid white;
+}
+.service_element::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.service_element .text_left {
+    color: rgba(255, 255, 255, 0.6);
+}
+#service .row {
+    margin-bottom: 25px;
+}
+.service_element a {
+    color: #00D1D1;
+}
+
+
 
 
 @media screen and (max-width: 992px) {
@@ -245,3 +285,4 @@ h5 a {
         padding-bottom: 0;
     }
 }
+
