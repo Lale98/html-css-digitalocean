@@ -3,6 +3,13 @@ body {
     margin-top: 70px;
     font-weight: 500;
 }
+
+.wrapper70 {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
 /* NAVBAR */
 .ms_navbar {
     z-index: 5;
@@ -152,12 +159,15 @@ h5 a {
     padding-top: 100px;
     padding-bottom: 30px;
 }
+#designed h2,
 #deploy h2 {
     font-size: 36px;
 }
+#features h3,
 #deploy h3 {
     font-size: 20px;
 }
+#designed p,
 #deploy p {
     font-size: 22px;
     color: rgba(0, 0, 0, 0.6);
@@ -176,6 +186,52 @@ h5 a {
     margin: 0;
     border-left: 2px solid grey;
 }
+
+/* DESIGNED */
+#designed {
+    padding: 50px 0;
+    background-color: #F3F5F9;
+}
+#designed img {
+    display: inline-block;
+    width: 80%;
+}
+#designed .fa-angle-left {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+#designed .fa-angle-right {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+#designed .fa-circle {
+    font-size: 12px;
+    color: #006AFF;
+}
+
+/* FEATURES */
+#features {
+    padding: 70px 0;
+}
+#features h2 {
+    margin-bottom: 40px;
+}
+#features p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+#features a {
+    font-size: 17px;
+    color: #006AFF
+}
+
+
 
 @media screen and (max-width: 992px) {
   
