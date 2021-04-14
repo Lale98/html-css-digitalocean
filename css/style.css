@@ -139,6 +139,7 @@ h5 a {
 
 /* SPONSOR */
 #sponsor {
+    text-align: center;
     padding-left: 15px;
     padding-right: 15px;
     background-color: #F3F5F9;
@@ -168,6 +169,7 @@ h5 a {
     padding-top: 100px;
     padding-bottom: 30px;
 }
+#rockerbox h2,
 #service h2,
 #features h2,
 #designed h2,
@@ -207,6 +209,7 @@ h5 a {
     display: inline-block;
     width: 80%;
 }
+#rockerbox .fa-angle-left,
 #designed .fa-angle-left {
     font-size: 50px;
     position: absolute;
@@ -214,6 +217,7 @@ h5 a {
     left: 0;
     transform: translateY(-50%);
 }
+#rockerbox .fa-angle-right, 
 #designed .fa-angle-right {
     font-size: 50px;
     position: absolute;
@@ -221,6 +225,7 @@ h5 a {
     right: 0;
     transform: translateY(-50%);
 }
+#rockerbox .fa-circle,
 #designed .fa-circle {
     font-size: 12px;
     color: #006AFF;
@@ -269,6 +274,44 @@ h5 a {
 .service_element a {
     color: #00D1D1;
 }
+
+/* ROCKERBOX */
+#rockerbox {
+    padding: 70px 0;
+    background-color: #F3F5F9;
+}
+#rockerbox h2 {
+    margin-bottom: 70px;
+}
+.rockerbox_element {
+    width: 80%;
+    padding: 50px 0;
+    margin: 0 auto;
+    background-color: white;
+}
+#rockerbox img {
+    width: 60%;
+}
+#rockerbox p {
+    font-size: 20px;
+    margin: 15px 0;
+    color: rgba(0, 0, 0, 0.6);
+}
+.rockerbox_element h5:nth-child(3) {
+    margin: 5px 0;
+    font-weight: bold;
+}
+.rockerbox_element h5:nth-child(4) {
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.rockerbox_element a {
+    color: #0040BA;
+}
+#rockerbox .fa-circle {
+    padding-top: 40px;
+}
+
 
 
 
