@@ -59,6 +59,7 @@ body {
 #ms_jumbotron p {
     font-size: 23px;
     color: rgba(255, 255, 255, 0.7);
+    padding-bottom: 70px;
 }
 #ms_jumbotron .form-group input {
     font-size: 18px;
@@ -146,6 +147,36 @@ h5 a {
     padding: 0;
 }
 
+/* DEPLOY */
+#deploy {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#deploy h2 {
+    font-size: 36px;
+}
+#deploy h3 {
+    font-size: 20px;
+}
+#deploy p {
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 50px;
+}
+#deploy .deploy_element p {
+    height: 80px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+#deploy .nav-pills a {
+    color: grey;
+    font-size: 20px;
+}
+#deploy .nav-pills li {
+    margin: 0;
+    border-left: 2px solid grey;
+}
+
 @media screen and (max-width: 992px) {
   
     #ms_jumbotron h1 {
@@ -153,5 +184,8 @@ h5 a {
     }
     .ms_navbar .navbar-brand {
         margin-right: 50px;
+    }
+    #ms_jumbotron p {
+        padding-bottom: 0;
     }
 }

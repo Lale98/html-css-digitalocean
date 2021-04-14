@@ -1,5 +1,6 @@
-.debug {
+.debug [class*="col-"] {
     border: 2px solid black;
+    height: 250px;
 }
 body {
     font-family: 'Roboto', sans-serif;
