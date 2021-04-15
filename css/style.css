@@ -53,6 +53,7 @@ body {
     margin-top: 10px;
     font-weight: 700;
 }
+#getstarted button,
 .ms_navbar .btn-default {
     color: #004AFF;
     border: 1px solid #004AFF;
@@ -169,11 +170,7 @@ h5 a {
     padding-top: 100px;
     padding-bottom: 30px;
 }
-#rockerbox h2,
-#service h2,
-#features h2,
-#designed h2,
-#deploy h2 {
+h2 {
     font-size: 36px;
 }
 #features h3,
@@ -254,7 +251,6 @@ h5 a {
     background-image: linear-gradient(#0047C5, #001E9A);
 }
 .service_element {
-    width: 95%;
     padding: 10px 0;
 }
 .service_element:not(:last-child) {
@@ -268,7 +264,9 @@ h5 a {
 .service_element .text_left {
     color: rgba(255, 255, 255, 0.6);
 }
-#service .row {
+#service .row .row {
+    width: 98%;
+    margin: 0 auto;
     margin-bottom: 25px;
 }
 .service_element a {
@@ -312,7 +310,19 @@ h5 a {
     padding-top: 40px;
 }
 
-
+/* GET STARTED */
+#getstarted {
+    text-align: center;
+    padding: 60px 0;
+    color: white;
+    background-image: linear-gradient(#0047C5, #001E9A);
+}
+#getstarted button {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+}
 
 
 
@@ -329,3 +339,19 @@ h5 a {
     }
 }
 
+@media screen and (max-width: 768px) {
+  
+    #service .service_element span {
+        font-size: 12px;
+    }
+    
+
+}
+@media screen and (max-width: 425px) {
+  
+    #service .service_element span {
+        font-size: 10px;
+    }
+    
+
+}
