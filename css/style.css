@@ -381,6 +381,9 @@ footer .fab {
     #ms_jumbotron p {
         padding-bottom: 0;
     }
+    footer .ms_list li:first-child {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -388,6 +391,19 @@ footer .fab {
     #service .service_element span {
         font-size: 12px;
     }
+    #deploy .deploy_element p {
+        height: auto;
+    }
+    #deploy .deploy_element:first-of-type {
+        margin-top: 30px;
+    }
+    #features img {
+        margin-top: 30px;
+    }
+    .wrapper70 {
+        width: 80%;
+    }
+
     
 
 }
